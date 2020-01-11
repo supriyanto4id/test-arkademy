@@ -8,6 +8,8 @@ function findSame(){
     $randomCheck = array();
     $i=0;
     do{
+        
+
         foreach (count_chars($string1[$i], 1) as $c => $val) {
                     echo "$i = There were $val instance(s) of \"" , chr($c) , "\" in the string.\n";
                    
